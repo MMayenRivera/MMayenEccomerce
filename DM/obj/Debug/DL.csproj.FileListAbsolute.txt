@@ -1,0 +1,9 @@
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenSql\DM\bin\Debug\DM.dll
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenSql\DM\bin\Debug\DM.pdb
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenSql\DM\obj\Debug\DM.dll
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenSql\DM\obj\Debug\DM.pdb
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenEccomerce\DM\bin\Debug\DM.dll
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenEccomerce\DM\bin\Debug\DM.pdb
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenEccomerce\DM\obj\Debug\DL.csprojResolveAssemblyReference.cache
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenEccomerce\DM\obj\Debug\DM.dll
+C:\Users\digis\Documents\MisaelMayenRivera\MMayenEccomerce\DM\obj\Debug\DM.pdb

@@ -1,0 +1,35 @@
+﻿@model ML.Producto
+
+@{
+    ViewBag.Title = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Productos a la venta</h2>
+
+@foreach (ML.Producto producto in Model.Productos)
+{
+
+    <div class="col-sm-3">
+
+        <div class="card thumbnail" style="width: auto;">
+
+            @if (producto.Imagen != null)
+            {
+                <img src="data:image/jpeg;base64,@Convert.ToBase64String(producto.Imagen)" style=" height:150px; width:150px;" />
+            }
+            else
+            {
+                <img src="~/Content/SIN-IMAGEN.jpg" style=" height:150px; width:150px;" />
+            }
+
+            <div class="card-body">
+                <h5 class="card-title">@producto.Nombre</h5>
+                <p class="card-text">@producto.PrecioUnitario</p>
+                <a href="@Url.Action("AddCarrito", "Venta", new { IdProducto = producto.IdProducto })" class="btn btn-primary">Añadir</a>
+            </div>
+        </div>
+    </div>
+
+}
+
